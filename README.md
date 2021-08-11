@@ -28,7 +28,7 @@ npm start
 
 ## Structure
 
-Initially, the full tree is displayed on the left will all nodes visible, and the info panel on the right shows details about the currently selected node (root initially):
+Initially, the full tree is displayed on the left with all nodes visible, and the info panel on the right shows details about the currently selected node (root initially):
 - name of the selected node corresponding to image type
 - a couple of sample images of the given type
 - (a table showing information about the selected sample image when clicked, otherwise hidden)
@@ -44,9 +44,16 @@ Initially, the full tree is displayed on the left will all nodes visible, and th
 # Data structure
 
 The data is currently stored in [`json.js`](https://github.com/spreka/microscopy-tree/blob/main/json.js), a simple text file in json format.
-Methods are currently also stored in the tree, however, as this would quickly become redundant, they will be stored in a separate data file later.
+Methods are stored in a separate data file [`seg_methods.js`](https://github.com/spreka/microscopy-tree/blob/main/seg_methods.js).
 
 # Deployment
 
-TODO:
-- publish on github pages once ready (the repo must be public)
+The tree is deployed on [Github pages](https://spreka.github.io/microscopy-tree/).
+
+# Contribution
+
+Methods and datasets are welcome to be added to the tree. For more information, please [contact us](unbias.biomag@gmail.com).
+
+# Citation
+
+Please cite our [bioRxiv paper]() if you use the tree (coming soon).
